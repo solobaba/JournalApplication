@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "377574827031",
+    "firebase_url": "https://journalapplication-ea567.firebaseio.com",
+    "project_id": "journalapplication-ea567",
+    "storage_bucket": "journalapplication-ea567.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377574827031:android:8761042491a36c6b",
+        "android_client_info": {
+          "package_name": "com.example.mighty.journalapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377574827031-kudjb7ufkk03vi72l6jehumgpc66sqom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP9R3ibiujd1p9dt__SeXBg4LdjF4ciLQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

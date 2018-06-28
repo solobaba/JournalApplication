@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">JournalApplication</string>
+
+    <string name="welcome_msg">Welcome to Expression \n Journal App</string>
+    <string name="register">CREATE A NEW ACCOUNT</string>
+    <string name="sign_in">ALREADY HAVE ACCOUNT</string>
+
+    <string name="name">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="no_text"> </string>
+    <string name="login_button">LOGIN</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_up_button">SIGN UP</string>
+    <string name="register_button">CREATE ACCOUNT</string>
+    <string name="log_out">Log Out</string>
+</resources>
