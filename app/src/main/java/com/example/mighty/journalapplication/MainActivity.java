@@ -1,5 +1,7 @@
 package com.example.mighty.journalapplication;
 
+import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -55,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
     ListItemViewHolder.ListItemAdapter adapter;
 
     SpotsDialog dialog;
+
+    Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -152,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadData() {
-        dialog.show();
+//        dialog.show();
         if (toDoList.size() > 0)
             toDoList.clear(); //Remove old values
         db.collection("ToDoList")
@@ -168,7 +172,8 @@ public class MainActivity extends AppCompatActivity {
                         }
                         adapter = new ListItemViewHolder.ListItemAdapter(MainActivity.this, toDoList);
                         listItem.setAdapter(adapter);
-                        dialog.dismiss();
+
+//                        dialog.dismiss();
                     }
                 }).addOnFailureListener(new OnFailureListener() {
             @Override
